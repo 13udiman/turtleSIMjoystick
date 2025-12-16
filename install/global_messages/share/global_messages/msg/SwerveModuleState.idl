@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from global_messages/msg/SwerveModuleState.msg
+// generated code does not contain a copyright notice
+
+
+module global_messages {
+  module msg {
+    struct SwerveModuleState {
+      @verbatim (language="comment", text=
+        "wheel speed (m/s)")
+      float speed;
+
+      @verbatim (language="comment", text=
+        "wheel angle (radians)")
+      float angle;
+    };
+  };
+};

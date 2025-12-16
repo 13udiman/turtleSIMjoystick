@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/controller__type_support.c.o"
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/controller__type_support.c.o.d"
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_state__type_support.c.o"
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_state__type_support.c.o.d"
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_states__type_support.c.o"
+  "CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_states__type_support.c.o.d"
+  "libglobal_messages__rosidl_typesupport_introspection_c.pdb"
+  "libglobal_messages__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/controller__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/controller__type_support.c"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_state__type_support.c"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_states__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/global_messages/msg/detail/swerve_module_states__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/global_messages__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

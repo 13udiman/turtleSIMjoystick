@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found global_messages: 0.0.0 (/home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libusbp-1'
+--   Found libusbp-1, version 1.3.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/budiman/RIVAL/cdc/build/pkg1
+[ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In member function ‘[01m[Kvoid JoyPublisher::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::velx[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_velx_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |         int pc[10] = {'I','T','S',[01;35m[Kmessage.velx[m[K,message.vely,message.angvel};
+      |                                   [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:56:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::vely[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_vely_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |         int pc[10] = {'I','T','S',message.velx,[01;35m[Kmessage.vely[m[K,message.angvel};
+      |                                                [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:69:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::angvel[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_angvel_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |    int pc[10] = {'I','T','S',message.velx,message.vely,[01;35m[Kmessage.angvel[m[K};
+      |                                                        [01;35m[K~~~~~~~~^~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable node[0m
+[100%] Built target node
+-- Install configuration: ""
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/lib/pkg1/node
+-- Set runtime path of "/home/budiman/RIVAL/cdc/install/pkg1/lib/pkg1/node" to ""
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/package_run_dependencies/pkg1
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/parent_prefix_path/pkg1
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.sh
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.dsv
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.sh
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.dsv
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.bash
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.sh
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.zsh
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.dsv
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.dsv
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/packages/pkg1
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config.cmake
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config-version.cmake
+-- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.xml

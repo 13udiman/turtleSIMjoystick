@@ -1,0 +1,8 @@
+{
+  "package_name": "global_messages",
+  "non_idl_tuples": [
+    "/home/budiman/RIVAL/cdc/src/global_messages:msg/Controller.msg",
+    "/home/budiman/RIVAL/cdc/src/global_messages:msg/SwerveModuleState.msg",
+    "/home/budiman/RIVAL/cdc/src/global_messages:msg/SwerveModuleStates.msg"
+  ]
+}

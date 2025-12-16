@@ -1,0 +1,11 @@
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In member function ‘[01m[Kvoid JoyPublisher::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:43:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::velx[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_velx_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |         int pc[10] = {'I','T','S',[01;35m[Kmessage.velx[m[K,message.vely,message.angvel};
+      |                                   [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:56:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::vely[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_vely_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |         int pc[10] = {'I','T','S',message.velx,[01;35m[Kmessage.vely[m[K,message.angvel};
+      |                                                [01;35m[K~~~~~~~~^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:77:69:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kmessage.global_messages::msg::Controller_<std::allocator<void> >::angvel[m[K’ from ‘[01m[Kglobal_messages::msg::Controller_<std::allocator<void> >::_angvel_type[m[K’ {aka ‘[01m[Kfloat[m[K’} to ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+   77 |    int pc[10] = {'I','T','S',message.velx,message.vely,[01;35m[Kmessage.angvel[m[K};
+      |                                                        [01;35m[K~~~~~~~~^~~~~~[m[K
+

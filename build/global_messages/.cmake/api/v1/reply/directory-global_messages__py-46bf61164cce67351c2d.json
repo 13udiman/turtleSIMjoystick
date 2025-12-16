@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "global_messages__py",
+		"source" : "/home/budiman/RIVAL/cdc/build/global_messages/global_messages__py"
+	}
+}

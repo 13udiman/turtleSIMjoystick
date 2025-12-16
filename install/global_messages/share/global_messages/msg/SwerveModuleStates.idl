@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from global_messages/msg/SwerveModuleStates.msg
+// generated code does not contain a copyright notice
+
+#include "global_messages/msg/SwerveModuleState.idl"
+
+module global_messages {
+  module msg {
+    typedef global_messages::msg::SwerveModuleState global_messages__msg__SwerveModuleState;
+    typedef global_messages__msg__SwerveModuleState global_messages__msg__SwerveModuleState__4[4];
+    struct SwerveModuleStates {
+      global_messages__msg__SwerveModuleState__4 modules;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+Invoking command in '/home/budiman/RIVAL/cdc/build/global_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/budiman/RIVAL/cdc/src/global_messages -DCMAKE_INSTALL_PREFIX=/home/budiman/RIVAL/cdc/install/global_messages
+Invoked command in '/home/budiman/RIVAL/cdc/build/global_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/budiman/RIVAL/cdc/src/global_messages -DCMAKE_INSTALL_PREFIX=/home/budiman/RIVAL/cdc/install/global_messages
+Invoking command in '/home/budiman/RIVAL/cdc/build/global_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/global_messages -- -j8 -l8
+Invoked command in '/home/budiman/RIVAL/cdc/build/global_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/global_messages -- -j8 -l8
+Invoking command in '/home/budiman/RIVAL/cdc/build/global_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/budiman/RIVAL/cdc/build/global_messages
+Invoked command in '/home/budiman/RIVAL/cdc/build/global_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/budiman/RIVAL/cdc/build/global_messages

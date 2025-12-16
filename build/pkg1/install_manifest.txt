@@ -1,0 +1,17 @@
+/home/budiman/RIVAL/cdc/install/pkg1/lib/pkg1/node
+/home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/package_run_dependencies/pkg1
+/home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/parent_prefix_path/pkg1
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.sh
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.dsv
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.sh
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.dsv
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.bash
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.sh
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.zsh
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.dsv
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.dsv
+/home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/packages/pkg1
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config.cmake
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config-version.cmake
+/home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.xml
