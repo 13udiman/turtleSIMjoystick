@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (global_messages) JobQueued: {'identifier': 'global_messages', 'dependencies': OrderedDict()}
+[0.000300] (pkg1) JobQueued: {'identifier': 'pkg1', 'dependencies': OrderedDict([('global_messages', '/home/budiman/RIVAL/cdc/install/global_messages')])}
+[0.000493] (global_messages) JobStarted: {'identifier': 'global_messages'}
+[0.010615] (global_messages) JobProgress: {'identifier': 'global_messages', 'progress': 'cmake'}
+[0.011418] (global_messages) JobProgress: {'identifier': 'global_messages', 'progress': 'build'}
+[0.012096] (global_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/budiman/RIVAL/cdc/build/global_messages', '--', '-j8', '-l8'], 'cwd': '/home/budiman/RIVAL/cdc/build/global_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'budiman'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/budiman'), ('OLDPWD', '/home/budiman/RIVAL'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'budiman'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'budiman'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/budiman-IdeaPad-Gaming-3-15IMH05:@/tmp/.ICE-unix/1765,unix/budiman-IdeaPad-Gaming-3-15IMH05:/tmp/.ICE-unix/1765'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f85ac8a5_c098_4dff_9ffe_2cb4b9ccd3c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXHSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/budiman/RIVAL/cdc/build/global_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.057147] (global_messages) StdoutLine: {'line': b'[  2%] Built target global_messages__cpp\n'}
+[0.057614] (global_messages) StdoutLine: {'line': b'[ 12%] Built target global_messages__rosidl_generator_c\n'}
+[0.067071] (global_messages) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_global_messages\n'}
+[0.080141] (global_messages) StdoutLine: {'line': b'[ 34%] Built target global_messages__rosidl_typesupport_introspection_cpp\n'}
+[0.080606] (global_messages) StdoutLine: {'line': b'[ 34%] Built target global_messages__rosidl_typesupport_cpp\n'}
+[0.084433] (global_messages) StdoutLine: {'line': b'[ 44%] Built target global_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[0.090787] (global_messages) StdoutLine: {'line': b'[ 55%] Built target global_messages__rosidl_typesupport_c\n'}
+[0.092223] (global_messages) StdoutLine: {'line': b'[ 65%] Built target global_messages__rosidl_typesupport_introspection_c\n'}
+[0.092876] (global_messages) StdoutLine: {'line': b'[ 76%] Built target global_messages__rosidl_typesupport_fastrtps_c\n'}
+[0.099773] (-) TimerEvent: {}
+[0.109536] (global_messages) StdoutLine: {'line': b'[ 76%] Built target global_messages\n'}
+[0.126633] (global_messages) StdoutLine: {'line': b'[ 78%] Built target global_messages__py\n'}
+[0.145465] (global_messages) StdoutLine: {'line': b'[ 87%] Built target global_messages__rosidl_generator_py\n'}
+[0.163861] (global_messages) StdoutLine: {'line': b'[100%] Built target global_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.164085] (global_messages) StdoutLine: {'line': b'[100%] Built target global_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[0.164184] (global_messages) StdoutLine: {'line': b'[100%] Built target global_messages__rosidl_typesupport_c__pyext\n'}
+[0.199908] (-) TimerEvent: {}
+[0.298343] (global_messages) StdoutLine: {'line': b'running egg_info\n'}
+[0.299011] (global_messages) StdoutLine: {'line': b'writing global_messages.egg-info/PKG-INFO\n'}
+[0.299236] (global_messages) StdoutLine: {'line': b'writing dependency_links to global_messages.egg-info/dependency_links.txt\n'}
+[0.299409] (global_messages) StdoutLine: {'line': b'writing top-level names to global_messages.egg-info/top_level.txt\n'}
+[0.299963] (-) TimerEvent: {}
+[0.301909] (global_messages) StdoutLine: {'line': b"reading manifest file 'global_messages.egg-info/SOURCES.txt'\n"}
+[0.302357] (global_messages) StdoutLine: {'line': b"writing manifest file 'global_messages.egg-info/SOURCES.txt'\n"}
+[0.325284] (global_messages) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_global_messages_egg\n'}
+[0.339535] (global_messages) CommandEnded: {'returncode': 0}
+[0.340363] (global_messages) JobProgress: {'identifier': 'global_messages', 'progress': 'install'}
+[0.348882] (global_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/budiman/RIVAL/cdc/build/global_messages'], 'cwd': '/home/budiman/RIVAL/cdc/build/global_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'budiman'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/budiman'), ('OLDPWD', '/home/budiman/RIVAL'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'budiman'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'budiman'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/budiman-IdeaPad-Gaming-3-15IMH05:@/tmp/.ICE-unix/1765,unix/budiman-IdeaPad-Gaming-3-15IMH05:/tmp/.ICE-unix/1765'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f85ac8a5_c098_4dff_9ffe_2cb4b9ccd3c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXHSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/budiman/RIVAL/cdc/build/global_messages'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.357878] (global_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.358191] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/ament_index/resource_index/rosidl_interfaces/global_messages\n'}
+[0.358263] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.358318] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.358369] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/swerve_module_state.h\n'}
+[0.358419] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/swerve_module_states.h\n'}
+[0.358467] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/controller.h\n'}
+[0.358516] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.358604] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.358679] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__struct.h\n'}
+[0.358750] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__functions.c\n'}
+[0.358814] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__type_support.h\n'}
+[0.358887] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__functions.c\n'}
+[0.358966] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__functions.h\n'}
+[0.359044] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__type_support.h\n'}
+[0.359444] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__functions.c\n'}
+[0.359696] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__type_support.h\n'}
+[0.359834] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__struct.h\n'}
+[0.359920] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__struct.h\n'}
+[0.360037] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__functions.h\n'}
+[0.360115] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__functions.h\n'}
+[0.360249] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/library_path.sh\n'}
+[0.360358] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/library_path.dsv\n'}
+[0.360449] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_generator_c.so\n'}
+[0.360525] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.360630] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.360778] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.360870] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.360964] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__rosidl_typesupport_fastrtps_c.h\n'}
+[0.361040] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__rosidl_typesupport_fastrtps_c.h\n'}
+[0.361131] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.361250] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[0.361327] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.361417] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.361495] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/swerve_module_states.hpp\n'}
+[0.361597] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.361716] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/swerve_module_state.hpp\n'}
+[0.361849] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/controller.hpp\n'}
+[0.361956] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.362033] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__type_support.hpp\n'}
+[0.362111] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__struct.hpp\n'}
+[0.362186] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__builder.hpp\n'}
+[0.362261] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__type_support.hpp\n'}
+[0.362339] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__builder.hpp\n'}
+[0.362422] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__traits.hpp\n'}
+[0.362500] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__type_support.hpp\n'}
+[0.362589] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__struct.hpp\n'}
+[0.362673] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__traits.hpp\n'}
+[0.362750] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__traits.hpp\n'}
+[0.362826] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__builder.hpp\n'}
+[0.362902] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__struct.hpp\n'}
+[0.362978] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.363053] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.363143] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.363220] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.363296] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.363373] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/dds_fastrtps\n'}
+[0.363449] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.363526] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.363620] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.363698] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.363773] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.363849] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.363924] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.363999] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__type_support.c\n'}
+[0.364076] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__rosidl_typesupport_introspection_c.h\n'}
+[0.364151] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__type_support.c\n'}
+[0.364227] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__rosidl_typesupport_introspection_c.h\n'}
+[0.364303] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__rosidl_typesupport_introspection_c.h\n'}
+[0.364378] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__type_support.c\n'}
+[0.364453] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_introspection_c.so\n'}
+[0.364532] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_c.so\n'}
+[0.364641] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages\n'}
+[0.364720] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg\n'}
+[0.364795] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail\n'}
+[0.364873] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.364978] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__type_support.cpp\n'}
+[0.365057] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/controller__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.365132] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_states__type_support.cpp\n'}
+[0.365211] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__type_support.cpp\n'}
+[0.365301] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/include/global_messages/global_messages/msg/detail/swerve_module_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.365380] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[0.365469] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_typesupport_cpp.so\n'}
+[0.365548] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/pythonpath.sh\n'}
+[0.365648] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/pythonpath.dsv\n'}
+[0.365755] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages-0.0.0-py3.10.egg-info\n'}
+[0.365840] (global_messages) StdoutLine: {'line': b'-- Installing: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.365922] (global_messages) StdoutLine: {'line': b'-- Installing: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.365998] (global_messages) StdoutLine: {'line': b'-- Installing: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.366074] (global_messages) StdoutLine: {'line': b'-- Installing: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.366151] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages\n'}
+[0.366228] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/_global_messages_s.ep.rosidl_typesupport_c.c\n'}
+[0.366304] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg\n'}
+[0.366381] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_controller_s.c\n'}
+[0.366457] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_controller.py\n'}
+[0.366531] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/__init__.py\n'}
+[0.366643] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_swerve_module_states.py\n'}
+[0.366721] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_swerve_module_states_s.c\n'}
+[0.366793] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_swerve_module_state.py\n'}
+[0.366865] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg/_swerve_module_state_s.c\n'}
+[0.366950] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.367031] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/_global_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.367105] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.367200] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/__init__.py\n'}
+[0.367275] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/libglobal_messages__rosidl_generator_py.so\n'}
+[0.367351] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/_global_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.367427] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.388695] (global_messages) StdoutLine: {'line': b"Listing '/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages'...\n"}
+[0.388906] (global_messages) StdoutLine: {'line': b"Listing '/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/msg'...\n"}
+[0.392790] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.393000] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.393153] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages/global_messages/global_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.393355] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/lib/libglobal_messages__rosidl_generator_py.so\n'}
+[0.393506] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/Controller.idl\n'}
+[0.393738] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/SwerveModuleState.idl\n'}
+[0.393840] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/SwerveModuleStates.idl\n'}
+[0.393990] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/Controller.msg\n'}
+[0.394121] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/SwerveModuleState.msg\n'}
+[0.394211] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/msg/SwerveModuleStates.msg\n'}
+[0.394300] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/ament_index/resource_index/package_run_dependencies/global_messages\n'}
+[0.394387] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/ament_index/resource_index/parent_prefix_path/global_messages\n'}
+[0.394472] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/ament_prefix_path.sh\n'}
+[0.394620] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/ament_prefix_path.dsv\n'}
+[0.394742] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/path.sh\n'}
+[0.394837] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/environment/path.dsv\n'}
+[0.394924] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/local_setup.bash\n'}
+[0.395008] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/local_setup.sh\n'}
+[0.395092] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/local_setup.zsh\n'}
+[0.395236] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/local_setup.dsv\n'}
+[0.395323] (global_messages) StdoutLine: {'line': b'-- Installing: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/package.dsv\n'}
+[0.395410] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/ament_index/resource_index/packages/global_messages\n'}
+[0.395492] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_generator_cExport.cmake\n'}
+[0.395584] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.395673] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.395753] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.395836] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_generator_cppExport.cmake\n'}
+[0.395919] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.396002] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.396085] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.396168] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.396250] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_cExport.cmake\n'}
+[0.396430] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.396530] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.396636] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.396719] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_cppExport.cmake\n'}
+[0.396798] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.396877] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_generator_pyExport.cmake\n'}
+[0.396956] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/export_global_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.397036] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[0.397115] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.397193] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.397273] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.397354] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.397438] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.397521] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.397819] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messagesConfig.cmake\n'}
+[0.397985] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/cmake/global_messagesConfig-version.cmake\n'}
+[0.398130] (global_messages) StdoutLine: {'line': b'-- Up-to-date: /home/budiman/RIVAL/cdc/install/global_messages/share/global_messages/package.xml\n'}
+[0.398573] (global_messages) CommandEnded: {'returncode': 0}
+[0.400066] (-) TimerEvent: {}
+[0.416734] (global_messages) JobEnded: {'identifier': 'global_messages', 'rc': 0}
+[0.417736] (pkg1) JobStarted: {'identifier': 'pkg1'}
+[0.422346] (pkg1) JobProgress: {'identifier': 'pkg1', 'progress': 'cmake'}
+[0.422801] (pkg1) JobProgress: {'identifier': 'pkg1', 'progress': 'build'}
+[0.422980] (pkg1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/budiman/RIVAL/cdc/build/pkg1', '--', '-j8', '-l8'], 'cwd': '/home/budiman/RIVAL/cdc/build/pkg1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'budiman'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/budiman'), ('OLDPWD', '/home/budiman/RIVAL'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'budiman'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'budiman'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/opt/ros/humble/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/budiman-IdeaPad-Gaming-3-15IMH05:@/tmp/.ICE-unix/1765,unix/budiman-IdeaPad-Gaming-3-15IMH05:/tmp/.ICE-unix/1765'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f85ac8a5_c098_4dff_9ffe_2cb4b9ccd3c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CXHSH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.291'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/budiman/RIVAL/cdc/build/pkg1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble')]), 'shell': False}
+[0.458985] (pkg1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node\x1b[0m\n'}
+[0.473201] (pkg1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o\x1b[0m\n'}
+[0.500161] (-) TimerEvent: {}
+[0.600375] (-) TimerEvent: {}
+[0.700604] (-) TimerEvent: {}
+[0.800872] (-) TimerEvent: {}
+[0.901138] (-) TimerEvent: {}
+[1.001395] (-) TimerEvent: {}
+[1.101652] (-) TimerEvent: {}
+[1.201950] (-) TimerEvent: {}
+[1.302228] (-) TimerEvent: {}
+[1.402494] (-) TimerEvent: {}
+[1.502779] (-) TimerEvent: {}
+[1.603050] (-) TimerEvent: {}
+[1.703335] (-) TimerEvent: {}
+[1.803632] (-) TimerEvent: {}
+[1.903942] (-) TimerEvent: {}
+[2.004193] (-) TimerEvent: {}
+[2.104501] (-) TimerEvent: {}
+[2.204761] (-) TimerEvent: {}
+[2.305016] (-) TimerEvent: {}
+[2.405293] (-) TimerEvent: {}
+[2.505542] (-) TimerEvent: {}
+[2.538679] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_port\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[2.538882] (pkg1) StderrLine: {'line': b'   92 |         write(\x1b[01;31m\x1b[Kserial_port\x1b[m\x1b[K, &pc, sizeof(pc));\n'}
+[2.538941] (pkg1) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.538991] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.539039] (pkg1) StderrLine: {'line': b'   92 |         write(serial_port, \x1b[01;31m\x1b[K&\x1b[m\x1b[Kpc, sizeof(pc));\n'}
+[2.539085] (pkg1) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.539132] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.539179] (pkg1) StderrLine: {'line': b'   92 |         write(serial_port, &pc, \x1b[01;31m\x1b[Ksizeof\x1b[m\x1b[K(pc));\n'}
+[2.539225] (pkg1) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.539270] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.539318] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.539367] (pkg1) StderrLine: {'line': b'   92 |         \x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K(serial_port, &pc, sizeof(pc));\n'}
+[2.539412] (pkg1) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.544367] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KJoyPublisher::JoyPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.544502] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.544562] (pkg1) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[Ksub_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Joy>(\n'}
+[2.544629] (pkg1) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.590488] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.590650] (pkg1) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);\n'}
+[2.590708] (pkg1) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.599483] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid JoyPublisher::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.599641] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:53:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.599700] (pkg1) StderrLine: {'line': b'   53 |         \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K->publish(twist_msg);\n'}
+[2.599751] (pkg1) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.601486] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.601573] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:94:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kspecializing member \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 requires \xe2\x80\x98\x1b[01m\x1b[Ktemplate<>\x1b[m\x1b[K\xe2\x80\x99 syntax\n'}
+[2.601654] (pkg1) StderrLine: {'line': b'   94 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;\n'}
+[2.601703] (pkg1) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.605599] (-) TimerEvent: {}
+[2.606146] (pkg1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:169:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.606249] (pkg1) StderrLine: {'line': b'  169 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.606301] (pkg1) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.705686] (-) TimerEvent: {}
+[2.805958] (-) TimerEvent: {}
+[2.906279] (-) TimerEvent: {}
+[3.006680] (-) TimerEvent: {}
+[3.106913] (-) TimerEvent: {}
+[3.207154] (-) TimerEvent: {}
+[3.307440] (-) TimerEvent: {}
+[3.407820] (-) TimerEvent: {}
+[3.508110] (-) TimerEvent: {}
+[3.608384] (-) TimerEvent: {}
+[3.708741] (-) TimerEvent: {}
+[3.809254] (-) TimerEvent: {}
+[3.909588] (-) TimerEvent: {}
+[4.010046] (-) TimerEvent: {}
+[4.110536] (-) TimerEvent: {}
+[4.211057] (-) TimerEvent: {}
+[4.311419] (-) TimerEvent: {}
+[4.411850] (-) TimerEvent: {}
+[4.512129] (-) TimerEvent: {}
+[4.612584] (-) TimerEvent: {}
+[4.713003] (-) TimerEvent: {}
+[4.813279] (-) TimerEvent: {}
+[4.913679] (-) TimerEvent: {}
+[5.014193] (-) TimerEvent: {}
+[5.114664] (-) TimerEvent: {}
+[5.214952] (-) TimerEvent: {}
+[5.315368] (-) TimerEvent: {}
+[5.415664] (-) TimerEvent: {}
+[5.515938] (-) TimerEvent: {}
+[5.616220] (-) TimerEvent: {}
+[5.716534] (-) TimerEvent: {}
+[5.817114] (-) TimerEvent: {}
+[5.917710] (-) TimerEvent: {}
+[6.017956] (-) TimerEvent: {}
+[6.118201] (-) TimerEvent: {}
+[6.218467] (-) TimerEvent: {}
+[6.318703] (-) TimerEvent: {}
+[6.418946] (-) TimerEvent: {}
+[6.519190] (-) TimerEvent: {}
+[6.619416] (-) TimerEvent: {}
+[6.720529] (-) TimerEvent: {}
+[6.820956] (-) TimerEvent: {}
+[6.921287] (-) TimerEvent: {}
+[6.962266] (pkg1) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node.dir/build.make:76: CMakeFiles/node.dir/src/node.cpp.o] Error 1\n'}
+[6.962464] (pkg1) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node.dir/all] Error 2\n'}
+[6.962567] (pkg1) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.964389] (pkg1) CommandEnded: {'returncode': 2}
+[6.970202] (pkg1) JobEnded: {'identifier': 'pkg1', 'rc': 2}
+[6.980703] (-) EventReactorShutdown: {}

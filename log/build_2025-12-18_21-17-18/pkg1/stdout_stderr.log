@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port[m[K’ is not a type
+   92 |         write([01;31m[Kserial_port[m[K, &pc, sizeof(pc));
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:28:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+   92 |         write(serial_port, [01;31m[K&[m[Kpc, sizeof(pc));
+      |                            [01;31m[K^[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Ksizeof[m[K’
+   92 |         write(serial_port, &pc, [01;31m[Ksizeof[m[K(pc));
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Ksizeof[m[K’
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwrite[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   92 |         [01;31m[Kwrite[m[K(serial_port, &pc, sizeof(pc));
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In constructor ‘[01m[KJoyPublisher::JoyPublisher()[m[K’:
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   31 |       [01;31m[Ksub_[m[K = this->create_subscription<sensor_msgs::msg::Joy>(
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   34 |     [01;31m[Kpub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In member function ‘[01m[Kvoid JoyPublisher::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   53 |         [01;31m[Kpub_[m[K->publish(twist_msg);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K At global scope:
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:94:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+   94 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:169:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  169 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/node.dir/build.make:76: CMakeFiles/node.dir/src/node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -4,3 +4,7 @@ global_messages.egg-info/PKG-INFO
 global_messages.egg-info/SOURCES.txt
 global_messages.egg-info/dependency_links.txt
 global_messages.egg-info/top_level.txt
+global_messages/msg/__init__.py
+global_messages/msg/_controller.py
+global_messages/msg/_swerve_module_state.py
+global_messages/msg/_swerve_module_states.py

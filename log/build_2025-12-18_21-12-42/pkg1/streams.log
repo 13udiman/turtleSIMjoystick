@@ -1,0 +1,38 @@
+[0.007s] Invoking command in '/home/budiman/RIVAL/cdc/build/pkg1': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/pkg1 -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target node[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[2.220s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port[m[K’ is not a type
+[2.220s]    92 |         write([01;31m[Kserial_port[m[K, &pc, sizeof(pc));
+[2.220s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.220s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:28:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+[2.221s]    92 |         write(serial_port, [01;31m[K&[m[Kpc, sizeof(pc));
+[2.221s]       |                            [01;31m[K^[m[K
+[2.221s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Ksizeof[m[K’
+[2.221s]    92 |         write(serial_port, &pc, [01;31m[Ksizeof[m[K(pc));
+[2.221s]       |                                 [01;31m[K^~~~~~[m[K
+[2.221s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Ksizeof[m[K’
+[2.221s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:92:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kwrite[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.221s]    92 |         [01;31m[Kwrite[m[K(serial_port, &pc, sizeof(pc));
+[2.221s]       |         [01;31m[K^~~~~[m[K
+[2.225s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In constructor ‘[01m[KJoyPublisher::JoyPublisher()[m[K’:
+[2.225s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+[2.225s]    31 |       [01;31m[Ksub_[m[K = this->create_subscription<sensor_msgs::msg::Joy>(
+[2.225s]       |       [01;31m[K^~~~[m[K
+[2.268s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[2.268s]    34 |     [01;31m[Kpub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+[2.268s]       |     [01;31m[K^~~~[m[K
+[2.277s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K In member function ‘[01m[Kvoid JoyPublisher::joyCallback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.277s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[2.277s]    53 |         [01;31m[Kpub_[m[K->publish(twist_msg);
+[2.277s]       |         [01;31m[K^~~~[m[K
+[2.279s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:[m[K At global scope:
+[2.279s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:94:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::Joy_<std::allocator<void> >, sensor_msgs::msg::Joy_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::Joy_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+[2.279s]    94 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;
+[2.279s]       |     [01;31m[K^~~~~~[m[K
+[2.284s] [01m[K/home/budiman/RIVAL/cdc/src/pkg1/src/node.cpp:169:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.284s]   169 | [01;31m[K}[m[K;
+[2.284s]       | [01;31m[K^[m[K
+[4.343s] gmake[2]: *** [CMakeFiles/node.dir/build.make:76: CMakeFiles/node.dir/src/node.cpp.o] Error 1
+[4.343s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node.dir/all] Error 2
+[4.343s] gmake: *** [Makefile:146: all] Error 2
+[4.345s] Invoked command in '/home/budiman/RIVAL/cdc/build/pkg1' returned '2': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/pkg1 -- -j8 -l8

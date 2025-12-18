@@ -40,9 +40,9 @@ class JoyPublisher : public rclcpp::Node
     {
       bool flag = false;
       auto message = global_messages::msg::Controller();
-      message.velx = msg->axes[0]*3;
-      message.vely = msg->axes[1]*3;
-      message.angvel = msg->axes[3]*3;
+      message.velx = msg->axes[0];
+      message.vely = msg->axes[1];
+      message.angvel = msg->axes[3];
       RCLCPP_INFO(this->get_logger(), "Publishing: '%f'", message.velx);
         RCLCPP_INFO(this->get_logger(), "Publishing: '%f'", message.vely);
         RCLCPP_INFO(this->get_logger(), "Publishing: '%f'", message.angvel);
@@ -74,7 +74,20 @@ class JoyPublisher : public rclcpp::Node
             serial_port = initialize_tty(dev_path.c_str());
             RCLCPP_INFO(this->get_logger(), "Master discovered at %s", dev_path.c_str());
         }
-        int pc[50] = {'I','T','S',message.velx,message.vely,message.angvel};
+        uint8_t pc[43] = {'i','t','s'};
+            
+            // Pack the data into communication buffer
+            // 8 bytes per module (4 for speed, 4 for angle)
+            size_t i=0;
+            size_t offset = 3 + (i * 4);
+            // Ensure we don't exceed buffer bounds
+            memcpy(pc + offset, &message.velx, 4);
+            i++;
+            offset = 3 + (i * 4);
+            memcpy(pc + offset, &message.vely, 4);
+            i++;
+            offset = 3 + (i * 4);
+            memcpy(pc + offset, &message.angvel, 4);
         write(serial_port, &pc, sizeof(pc));
     }
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr sub_;

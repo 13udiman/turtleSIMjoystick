@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/budiman/RIVAL/cdc/build/pkg1': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/pkg1 -- -j8 -l8
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target node[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[12.807s] [100%] [32m[1mLinking CXX executable node[0m
+[21.781s] [100%] Built target node
+[21.790s] Invoked command in '/home/budiman/RIVAL/cdc/build/pkg1' returned '0': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/budiman/RIVAL/cdc/build/pkg1 -- -j8 -l8
+[21.791s] Invoking command in '/home/budiman/RIVAL/cdc/build/pkg1': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/budiman/RIVAL/cdc/build/pkg1
+[21.797s] -- Install configuration: ""
+[21.845s] -- Installing: /home/budiman/RIVAL/cdc/install/pkg1/lib/pkg1/node
+[21.868s] -- Set runtime path of "/home/budiman/RIVAL/cdc/install/pkg1/lib/pkg1/node" to ""
+[21.868s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/package_run_dependencies/pkg1
+[21.869s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/parent_prefix_path/pkg1
+[21.869s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.sh
+[21.869s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/ament_prefix_path.dsv
+[21.869s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.sh
+[21.870s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/environment/path.dsv
+[21.870s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.bash
+[21.870s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.sh
+[21.870s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.zsh
+[21.870s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/local_setup.dsv
+[21.871s] -- Installing: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.dsv
+[21.883s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/ament_index/resource_index/packages/pkg1
+[21.883s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.884s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config.cmake
+[21.884s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/cmake/pkg1Config-version.cmake
+[21.884s] -- Up-to-date: /home/budiman/RIVAL/cdc/install/pkg1/share/pkg1/package.xml
+[21.889s] Invoked command in '/home/budiman/RIVAL/cdc/build/pkg1' returned '0': AMENT_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/budiman/RIVAL/cdc/install/global_messages:/opt/ros/humble LD_LIBRARY_PATH=/home/budiman/RIVAL/cdc/install/global_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/libphidget22/lib:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/budiman/RIVAL/cdc/install/global_messages/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/budiman/RIVAL/cdc/build/pkg1
